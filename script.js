@@ -101,13 +101,13 @@ function renderCards(container, filterStore) {
     for (let i = 0; i < products.length; i++) {
       if (sortable.indexOf(i) != -1) {
         createCard(products[i], i, container, filterStore);
-      }
+      };
     };
   } else {
     for (let i = 0; i < products.length; i++) {
       createCard(products[i], i, container);
     };
-  }
+  }:
 
   $('.color').on('click', function() {
     let colorButton = $(this),
