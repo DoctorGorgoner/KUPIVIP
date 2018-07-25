@@ -107,7 +107,7 @@ function renderCards(container, filterStore) {
     for (let i = 0; i < products.length; i++) {
       createCard(products[i], i, container);
     };
-  }:
+  };
 
   $('.color').on('click', function() {
     let colorButton = $(this),
